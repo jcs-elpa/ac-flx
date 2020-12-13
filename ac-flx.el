@@ -7,7 +7,7 @@
 ;; Description: flx support for auto-complete
 ;; Keyword: ac auto-complete flx
 ;; Version: 0.0.1
-;; Package-Requires: ((emacs "24.3"))
+;; Package-Requires: ((emacs "24.3") (auto-complete "1.5.1"))
 ;; URL: https://github.com/jcs090218/ac-flx
 
 ;; This file is NOT part of GNU Emacs.
@@ -31,6 +31,8 @@
 ;;
 
 ;;; Code:
+
+(require 'auto-complete)
 
 (defgroup ac-flx nil
   "flx support for auto-complete."
