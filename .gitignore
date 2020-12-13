@@ -1,0 +1,9 @@
+# ignore these directories.
+/.git
+/recipes
+/test
+ac-flx-pkg.el
+ac-flx-autoloads.el
+
+# ignore generated files.
+*.elc
